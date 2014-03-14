@@ -2,6 +2,7 @@ package com.test.service;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.util.HashMap;
 
 import javax.annotation.PostConstruct;
 import javax.transaction.Transactional;
@@ -21,6 +22,7 @@ public class InitDbService {
 
 	@PostConstruct
 	public void init() throws Exception {
+		HashMap<String, City> map = new HashMap<String, City>();
 		System.out.println("START INIT DATABASE");
 		BufferedReader reader = new BufferedReader(new InputStreamReader(
 				getClass().getResourceAsStream("/woeid.txt")));
@@ -33,6 +35,9 @@ public class InitDbService {
 			City city = new City();
 			city.setName(t[0]);
 			city.setWoeid(Integer.parseInt(t[3]));
+			map.put(city.getName(), city);
+		}
+		for (City city : map.values()) {
 			cityRepository.save(city);
 		}
 		reader.close();

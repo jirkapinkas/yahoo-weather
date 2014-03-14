@@ -6,4 +6,6 @@ import com.test.entity.City;
 
 public interface CityRepository extends JpaRepository<City, Integer> {
 
+	City findByName(String name);
+
 }
