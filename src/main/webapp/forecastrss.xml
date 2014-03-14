@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+		<rss version="2.0" xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+			<channel>
+		
+<title>Yahoo! Weather - Prague, CZ</title>
+<link>http://us.rd.yahoo.com/dailynews/rss/weather/Prague__CZ/*http://weather.yahoo.com/forecast/EZXX0012_c.html</link>
+<description>Yahoo! Weather for Prague, CZ</description>
+<language>en-us</language>
+<lastBuildDate>Fri, 14 Mar 2014 5:59 am CET</lastBuildDate>
+<ttl>60</ttl>
+<yweather:location city="Prague" region=""   country="Czech Republic"/>
+<yweather:units temperature="C" distance="km" pressure="mb" speed="km/h"/>
+<yweather:wind chill="0"   direction="220"   speed="4.83" />
+<yweather:atmosphere humidity="87"  visibility="9.99"  pressure="1015.92"  rising="0" />
+<yweather:astronomy sunrise="6:18 am"   sunset="6:04 pm"/>
+<image>
+<title>Yahoo! Weather</title>
+<width>142</width>
+<height>18</height>
+<link>http://weather.yahoo.com</link>
+<url>http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif</url>
+</image>
+<item>
+<title>Conditions for Prague, CZ at 5:59 am CET</title>
+<geo:lat>50.08</geo:lat>
+<geo:long>14.43</geo:long>
+<link>http://us.rd.yahoo.com/dailynews/rss/weather/Prague__CZ/*http://weather.yahoo.com/forecast/EZXX0012_c.html</link>
+<pubDate>Fri, 14 Mar 2014 5:59 am CET</pubDate>
+<yweather:condition  text="Fair"  code="33"  temp="0"  date="Fri, 14 Mar 2014 5:59 am CET" />
+<description><![CDATA[
+<img src="http://l.yimg.com/a/i/us/we/52/33.gif"/><br />
+<b>Current Conditions:</b><br />
+Fair, 0 C<BR />
+<BR /><b>Forecast:</b><BR />
+Fri - Sunny. High: 16 Low: 6<br />
+Sat - Light Rain/Wind. High: 9 Low: 4<br />
+Sun - Light Rain. High: 11 Low: 7<br />
+Mon - Cloudy. High: 12 Low: 4<br />
+Tue - Cloudy. High: 14 Low: 5<br />
+<br />
+<a href="http://us.rd.yahoo.com/dailynews/rss/weather/Prague__CZ/*http://weather.yahoo.com/forecast/EZXX0012_c.html">Full Forecast at Yahoo! Weather</a><BR/><BR/>
+(provided by <a href="http://www.weather.com" >The Weather Channel</a>)<br/>
+]]></description>
+<yweather:forecast day="Fri" date="14 Mar 2014" low="6" high="16" text="Sunny" code="32" />
+<yweather:forecast day="Sat" date="15 Mar 2014" low="4" high="9" text="Light Rain/Wind" code="11" />
+<yweather:forecast day="Sun" date="16 Mar 2014" low="7" high="11" text="Light Rain" code="11" />
+<yweather:forecast day="Mon" date="17 Mar 2014" low="4" high="12" text="Cloudy" code="26" />
+<yweather:forecast day="Tue" date="18 Mar 2014" low="5" high="14" text="Cloudy" code="26" />
+<guid isPermaLink="false">EZXX0012_2014_03_18_7_00_CET</guid>
+</item>
+</channel>
+</rss>
+
+<!-- fan1692.sports.bf1.yahoo.com Fri Mar 14 05:53:24 PST 2014 -->
