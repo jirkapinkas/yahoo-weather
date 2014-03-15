@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.test.entity.City;
-import com.test.repository.CityService;
+import com.test.service.CityService;
 import com.test.service.YahooService;
 import com.test.yahoo.weather.Weather;
 
